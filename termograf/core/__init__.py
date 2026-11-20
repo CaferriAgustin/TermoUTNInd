@@ -1,0 +1,1 @@
+"""Estados y propiedades."""

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "termograf"
+version = "0.1.0"
+description = "Simulador termodinámico didáctico inspirado en TermoGraf (Unizar)"
+requires-python = ">=3.10"
+dependencies = ["coolprop", "numpy", "plotly", "streamlit"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["termograf*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
