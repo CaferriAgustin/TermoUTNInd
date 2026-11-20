@@ -9,6 +9,9 @@ description = "Simulador termodinámico didáctico inspirado en TermoGraf (Uniza
 requires-python = ">=3.10"
 dependencies = ["coolprop", "numpy", "plotly", "streamlit"]
 
+[project.scripts]
+termograf = "termograf.cli:main"
+
 [project.optional-dependencies]
 dev = ["pytest"]
 

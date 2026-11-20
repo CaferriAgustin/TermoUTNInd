@@ -1,0 +1,5 @@
+coolprop
+numpy
+pandas
+plotly
+streamlit
